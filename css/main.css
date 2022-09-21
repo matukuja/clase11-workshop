@@ -1,0 +1,100 @@
+#contenedorPrincipal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#contenedorFormularios {
+    padding-right: 15%;
+    padding-top: 1%;
+    width: 50%;
+}
+
+#contenedorDatosAdicionales {
+    margin-top: 2rem;
+}
+
+#vidrieraPedidos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contenedorResultados {
+    width: 50%;
+    padding-left: 1%;
+    padding-top: 1.1%;
+    padding-right: 1%;
+}
+
+#formDatosPersonales,
+#formPedidos,
+#formDatosAdicionales {
+    border-style: dashed;
+    border-width: 1px;
+    padding: 1rem;
+}
+
+#datosCarrito h3 {
+    font-size: 1.2rem;
+}
+
+#contenedorResultados h2 {
+    font-size: 1.6rem;
+}
+
+form button {
+    margin-top: 0.5rem;
+}
+
+#mensajeFinal {
+    font-size: 1.3rem;
+    color: rgb(225, 140, 3);
+}
+
+.contenedorInputNombre,
+.contenedorInputApellido,
+.contenedorInputDocumento,
+.contenedorInputTelContacto {
+    width: 48%
+}
+
+#formDatosPersonales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contenedorFormCargaPedidos {
+    margin-top: 1rem;
+}
+
+#leyendaCarritoVacio {
+    color: red;
+}
+
+.lineaSeparadora {
+    width: 50%;
+}
+
+#datosCarrito {
+    margin-top: 2rem;
+}
+
+@media (max-width:768px) {
+    #contenedorPrincipal {
+        flex-direction: column;
+        align-items: center;
+    }
+    #contenedorFormularios {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        padding-top: 3rem;
+        width: 100%;
+        text-align: center;
+    }
+    #contenedorResultados {
+        width: 100%;
+        text-align: center;
+    }
+}
